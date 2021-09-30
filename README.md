@@ -42,7 +42,7 @@ ___
 
 ## Melhorando o codigo
 
-Foi feita uma melhora no codigo para uma melhor compreensão e leitura do mesmo. Nessa parte foi utilizada o if para identificar a mudança de cada elemento. pra isso foi criado um novo arquivo chamado JScomObjeto_2.
+Foi feita uma melhora no codigo para uma melhor compreensão e leitura do mesmo. Nessa parte foi utilizada o if para identificar a mudança de cada elemento.
 
     var quebrada = false;
     function mudaLampada(tipo){
