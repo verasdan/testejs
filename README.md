@@ -1,9 +1,12 @@
+<div align="center">
 
 ![Editor](https://img.shields.io/badge/Editor-VSCode-blue?style=flat-square&logo=visual-studio-code&logoColor=white&style=flat)
 ![Projeto](https://badgen.net/badge/Projeto/Finished/green)
 ![GIT](https://badgen.net/badge/Git/ON/green?icon=github)
 <!-- trocar o nome do repositório para atualizar -->
-[![Profile last updated](https://img.shields.io/github/last-commit/verasdan/testejs?label=Last%20updated&style=flat)](https://github.com/verasdan/verasdan/commits)
+[![Profile last updated](https://img.shields.io/github/last-commit/verasdan/testejs?label=Last%20updated&style=flat)](https://github.com/verasdan/testejs/commits)
+
+</div>
 
 ___
 
@@ -41,6 +44,7 @@ ___
 
 Foi feita uma melhora no codigo para uma melhor compreensão e leitura do mesmo. Nessa parte foi utilizada o if para identificar a mudança de cada elemento. pra isso foi criado um novo arquivo chamado JScomObjeto_2.
 
+    var quebrada = false;
     function mudaLampada(tipo){
         if (tipo == 1){
             arquivo = "_imagens/lampada-acesa.jpg";
@@ -62,7 +66,31 @@ Foi feita uma melhora no codigo para uma melhor compreensão e leitura do mesmo.
             }
         }
 
+<br>
 
+___
+
+## Melhor solução
+
+Para finalizar e ter um redimento no código foi melhorado e o final foi esse utilizando concatenação.
+
+    var quebrada = false;
+    function mudaLampada(tipo){
+        
+        if (!quebrada){
+            document.getElementById("luz").src = "_imagens/" + tipo + ".jpg";
+            if (tipo == 'lampada-quebrada'){
+                quebrada = true;
+            }
+        }
+        
+    }
+
+<br>
+
+___
+
+<br>
 <!-- GitHub Contributors -->
 <div align="center">
 
