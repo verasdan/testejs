@@ -7,6 +7,7 @@
 
 ___
 
+## Teste
 Utilizando a lingagem JavaScript para manipular alguns elementos dentro da pagina HMTL. foi utilizado esse script inicial para treinar.
 
     <script>
@@ -31,6 +32,36 @@ foi utilizado 3 imagens para este teste.
 ![lampada-apagada](_imagens/lampada-apagada.jpg)
 ![lampada-acesa](_imagens/lampada-acesa.jpg)
 ![lampada-quebrada](_imagens/lampada-quebrada.jpg)
+
+<br>
+
+___
+
+## Melhorando o codigo
+
+Foi feita uma melhora no codigo para uma melhor compreensão e leitura do mesmo. Nessa parte foi utilizada o if para identificar a mudança de cada elemento. pra isso foi criado um novo arquivo chamado JScomObjeto_2.
+
+    function mudaLampada(tipo){
+        if (tipo == 1){
+            arquivo = "_imagens/lampada-acesa.jpg";
+        }
+
+        if (tipo == 2){
+            arquivo = "_imagens/lampada-apagada.jpg";
+        }
+
+        if (tipo == 3){
+            arquivo = "_imagens/lampada-quebrada.jpg";
+            
+        }
+        
+        if (!quebrada){
+            document.getElementById("luz").src = arquivo;
+            if (tipo == 3){
+                quebrada = true;
+            }
+        }
+
 
 <!-- GitHub Contributors -->
 <div align="center">
