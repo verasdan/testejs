@@ -11,7 +11,7 @@
 ___
 
 ## Teste
-Utilizando a lingagem JavaScript para manipular alguns elementos dentro da pagina HMTL. foi utilizado esse script inicial para treinar.
+Utilizando a lingagem JavaScript para manipular alguns elementos dentro da pagina HMTL. Foi utilizado esse script inicial para realizar alguns testes e por em prática a linguagem.
 
     <script>
     function acendeLampada(){
